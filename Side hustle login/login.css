@@ -1,0 +1,857 @@
+
+body {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    overflow: unset;
+}
+.Login-container {
+    background: url(images/d-background4\ side.jpeg) no-repeat;
+    overflow: hidden;
+    position: relative;
+    visibility: visible;
+}
+/*#side-pics {
+    width: 470px;
+    height: 500px;
+}*/
+.side-first {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.First-column {
+    position: relative;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    visibility: visible;
+    background: transparent;
+}
+
+.First-column h2 {
+    font-size: larger;
+    font-weight: 500;
+    line-height: 35px;
+}
+.side-logo {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+.side-header {
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    top: -70px;
+}
+
+.side-lists  {
+    margin-top: 50px;
+}
+.side-lists li {
+    font-size: large;
+    font-weight: 700;
+}
+
+.side-lists li span {
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.Second-column {
+    margin-left: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.side-register {
+    margin-top: 30px;
+    margin-left: 570px;
+}
+.side-register button {
+    color: black;
+}
+.btn-outline-success {
+    background-color: rgb(31, 154, 31, 0.35);
+    border: 1px solid rgb(31, 154, 31, 0.35) ;
+    font-size: small;
+    font-weight: 400;
+}
+
+.side-small-p  {
+    position: absolute;
+    background-color: rgb(31, 154, 31, 0.35);
+    min-width: 58%;
+    min-height: 40px;
+    top: 100px;
+    left: 515px;
+}
+
+.side-small-p p {
+    position: relative;
+    top: 12px;
+    font-size:  12px;
+    text-align: center;
+    font-weight: 400;
+}
+.side-small-p span {
+    font-weight: bolder;
+}
+.side-small-p img {
+    position: absolute;
+    right: 184px;
+    top: 5px;
+}
+.signin-details {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.signin-details h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.signin-details p {
+    font-size: 15px;
+    font-weight: 450;
+    color: rgb(27, 27, 27 0.55);
+}
+
+form {
+    
+    margin-top: 20px;
+}
+
+#hide {
+    position: absolute;
+    right: 16px;
+    margin-top: 10px;
+}
+input, .side-button a button {
+    min-width: 35vw;
+    min-height: 7vh;
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 8px;
+}
+.side-button button {
+    background-color: rgb(17, 165, 17, 0.75);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.side-email, .side-password {
+margin-bottom: 20px;
+left: 5px;
+}
+.forgot {
+    font-size: 13px;
+    margin-top: 12px;
+}
+#recover {
+    color: rgb(17, 165, 17, 0.75);
+    font-weight: 700;
+
+}
+.whatsapp {
+    position: absolute;
+    right: 20px;
+    top: 425px;
+}
+
+.whatsapp span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(17, 165, 17);
+}
+
+@media screen and (max-width:1500px) {
+    .side-first {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    .signin-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 45%;
+        left: 52%;
+        margin-left: 270px;
+        margin-top: 30px;
+    }
+    .side-logo {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 104px;
+    }
+    side-header {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+        margin-top: 90px;
+    }
+    
+    .side-lists  {
+        margin-top: 25px;
+    }
+    .side-register {
+        margin-top: 38px;
+        margin-left: 600px;
+    }
+
+    .whatsapp {
+        position: absolute;
+        right: 20px;
+        top: 460px;
+    }
+
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 64%;
+        min-height: 40px;
+        top: 100px;
+        left: 535px;
+        overflow: hidden;
+    }
+
+    .side-small-p img {
+        position: absolute;
+        right: 238px;
+        top: 7px;
+    }
+}
+@media  screen and (max-width: 1200px) {
+    .side-first {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 60%;
+        min-height: 40px;
+        top: 100px;
+        left: 480px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 170px;
+        top: 5px;
+    }
+    .side-register {
+        margin-top: 30px;
+        margin-left: 545px;
+    }
+    .whatsapp {
+        position: absolute;
+        right: 5px;
+        top: 480px;
+    }
+}
+@media  screen and (max-width: 1100px) {
+    .side-first {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 60%;
+        min-height: 40px;
+        top: 100px;
+        left: 454px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 152px;
+        top: 5px;
+    }
+    .side-register {
+        margin-top: 30px;
+        margin-left: 456px;
+    }
+    .signin-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .signin-details p {
+        font-size: 12px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    .whatsapp {
+        position: absolute;
+        right: 5px;
+        top: 485px;
+    }
+}
+@media  screen and (max-width: 1024px) {
+    .side-first {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .side-header {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+        margin-top: -20px;
+    }
+    
+    .side-logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 80px;
+    }
+    .side-lists  {
+        margin-top: 10px;
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 60%;
+        min-height: 40px;
+        top: 100px;
+        left: 428px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 134px;
+        top: 5px;
+    }
+    .side-register {
+        margin-top: 36px;
+        margin-left: 456px;
+    }
+    .signin-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-left: 200px;
+        margin-top: 35px;
+    }
+    .signin-details p {
+        font-size: 12px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    .whatsapp {
+        position: absolute;
+        right: 5px;
+        top: 485px;
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .side-first {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    .side-logo {
+        position: absolute;
+        margin-top: 48px;
+        margin-left: 46px;
+    }
+    side-header {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+        top: -20px;
+    }
+    .side-lists  {
+        margin-top: 20px;
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 63%;
+        min-height: 40px;
+        top: 100px;
+        left: 372px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 105px;
+        top: 5px;
+    }
+    .side-register {
+        margin-top: 36px;
+        margin-left: 405px;
+    }
+    .signin-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .signin-details p {
+        font-size: 12px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    .whatsapp {
+        position: absolute;
+        right: 5px;
+        top: 485px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Login-container {
+        background: white;
+        overflow: hidden;
+        position: relative;
+        visibility: visible;
+    }
+    .side-logo {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+    .side-logo img {
+        height: 30px;
+    }
+    .First-column {
+        position: relative;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        background: white;
+        visibility: hidden;
+    }
+    .Second-column {
+        margin-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 70px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .side-first {
+        position: absolute;
+       
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 100%;
+        min-height: 40px;
+        top: 58px;
+        left: 0px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 206px;
+        top: 5px;
+    }
+    side-small-p p {
+        position: relative;
+        top: 12px;
+        font-size:  10px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .side-register a, #Reg {
+        background-color: none;
+        border: none ;
+        font-size: small;
+        font-weight: 400;
+    }
+    .side-register {
+        position: absolute;
+        margin-top: -12px;
+        margin-left: 600px;
+    }
+    .signin-details {
+       left: 160px;
+        margin-top: 20px;
+    }
+    #hide {
+        margin-top: 5px;
+    }
+    input, .side-button a button {
+        min-width: 80vw;
+        min-height: 7vh;
+        border: 1px solid rgb(183, 182, 182);
+        border-radius: 8px;
+    }
+    .signin-details p {
+        font-size: 10px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    .whatsapp {
+        position: absolute;
+        right: 3px;
+        top: 340px;
+    }
+    .forgot {
+        font-size: 10px;
+        margin-top: 12px;
+        margin-right: 21px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .Login-container {
+        background: white;
+        overflow: hidden;
+        position: relative;
+        visibility: visible;
+    }
+    .side-logo {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+    .side-logo img {
+        height: 30px;
+    }
+    .First-column {
+        position: relative;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        background: white;
+        visibility: hidden;
+    }
+    .Second-column {
+        margin-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 70px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .side-first {
+        position: absolute;
+        
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 100%;
+        min-height: 40px;
+        top: 58px;
+        left: 0px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 76px;
+        top: 5px;
+    }
+    side-small-p p {
+        position: relative;
+        top: 12px;
+        font-size:  10px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .side-register {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 380px;
+    }
+    .signin-details {
+        left: 50px;
+        margin-top: -15px;
+    }
+    .signin-details p {
+        font-size: 13px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    input, .side-button a button {
+        min-width: 80vw;
+        min-height: 7vh;
+        border: 1px solid rgb(183, 182, 182);
+        border-radius: 8px;
+    }
+    .whatsapp {
+        position: absolute;
+        right: 3px;
+        top: 440px;
+    }
+    .forgot {
+        font-size: 10px;
+        margin-top: 12px;
+        margin-right: 24px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .Login-container {
+        background: white;
+        overflow: hidden;
+        position: relative;
+        visibility: visible;
+    }
+    .First-column {
+        position: relative;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        background: white;
+        visibility: hidden;
+    }
+    .Second-column {
+        margin-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 70px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .side-first {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 100%;
+        min-height: 40px;
+        top: 58px;
+        left: 0px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 38px;
+        top: 5px;
+    }
+    side-small-p p {
+        position: relative;
+        top: 12px;
+        font-size:  10px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .side-register {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: 300px;
+    }
+    .signin-details {
+        position: absolute;
+        left: 10px;
+        margin-top: 30px;
+
+    }
+    .signin-details p {
+        font-size: 10px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    #hide {
+        margin-top: 3px;
+        right: 7px;
+    }
+    .side-button a button {
+        min-width: 80vw;
+        min-height: 7vh;
+        border: 1px solid rgb(183, 182, 182);
+        border-radius: 8px;
+    }
+    .whatsapp {
+        position: absolute;
+        right: 3px;
+        top: 340px;
+    }
+    .forgot {
+        font-size: 10px;
+        margin-top: 12px;
+        /*margin-right: 21px;*/
+    }
+}
+@media only screen and (max-width: 380px) {
+    .Login-container {
+        background: white;
+        overflow: hidden;
+        position: relative;
+        visibility: visible;
+    }
+    .side-logo img {
+        height: 22px;
+    }
+    .First-column {
+        position: relative;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        background: white;
+        visibility: hidden;
+    }
+    .Second-column {
+        margin-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 70px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .side-first {
+        position: absolute;
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 100%;
+        min-height: 40px;
+        top: 58px;
+        left: 0px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 14px;
+        top: 5px;
+    }
+    side-small-p p {
+        position: relative;
+        top: 12px;
+        font-size:  8px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .side-register {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 252px;
+    }
+    .signin-details {
+        position: absolute;
+        left: -10px;
+        margin-top: 15px;
+    }
+    #hide {
+        margin-top: 3px;
+        right: 7px;
+    }
+    .signin-details p {
+        font-size: 10px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    .side-button a button {
+        min-width: 80vw;
+        min-height: 7vh;
+        border: 1px solid rgb(183, 182, 182);
+        border-radius: 8px;
+    }
+    .whatsapp {
+        position: absolute;
+        right: 3px;
+        top: 340px;
+    }
+    .forgot {
+        font-size: 10px;
+        margin-top: 12px;
+        margin-right: 21px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .Login-container {
+        background: white;
+        overflow: hidden;
+        position: relative;
+        visibility: visible;
+    }
+    .side-logo img {
+        height: 22px;
+    }
+    .First-column {
+        position: relative;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        background: white;
+        visibility: hidden;
+    }
+    .Second-column {
+        margin-bottom: 400px;
+        margin-left: 0px;
+        margin-right: 70px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .side-first {
+        position: absolute;
+    }
+    .side-register {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 200px;
+    }
+    .side-small-p {
+        position: absolute;
+        background-color: rgb(31, 154, 31, 0.35);
+        min-width: 100%;
+        min-height: 40px;
+        top: 58px;
+        left: 0px;
+    }
+    .side-small-p img {
+        position: absolute;
+        right: 12px;
+        top: 5px;
+    }
+    .side-small-p p {
+        position: relative;
+        top: 12px;
+        font-size:  10px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .signin-details {
+        position: absolute;
+        left: -50px;
+        margin-top: 25px;
+    }
+    .signin-details h1 {
+        font-size: 20px;
+    }
+    .signin-details p {
+        font-size: 11px;
+        font-weight: 450;
+        color: rgb(27, 27, 27 0.55);
+    }
+    #hide {
+        position: absolute;
+        right: 10px;
+        margin-top: 5px;
+    }
+    input, .side-button a button {
+        min-width: 80vw;
+        min-height: 7vh;
+        border: 1px solid rgb(183, 182, 182);
+        border-radius: 8px;
+    }
+    .whatsapp {
+        position: absolute;
+        right: 3px;
+        top: 340px;
+    }
+    .forgot {
+        font-size: 8px;
+        margin-top: 8px;
+        margin-right: 21px;
+    }
+}
+
